@@ -21,7 +21,7 @@ int main() {
     return 0;
   }
    
-  else if (cal > 5.0 && cal < 6.9)
+  else if (cal >= 5.0 && cal < 6.9)
     printf("Aluno em exame.\n");
     scanf("%f", &ex);
     printf("Nota do exame: %.1f\n", ex);
